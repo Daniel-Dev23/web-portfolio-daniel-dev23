@@ -28,6 +28,7 @@
     
     }
     .header-wrapper {
+        background-color: #090D12;
         grid-area: HeaderWrapper;
     }
 
@@ -42,7 +43,6 @@
     }
 
     .main-wrapper {
-        background-color: lightsalmon;
         grid-area: MainWrapper;
     }
 
@@ -58,7 +58,7 @@
         justify-content: center;
         align-items: flex-start;
 
-        padding-left: 25%;
+        padding-left: 20%;
     }
 
     .navbar-menu__link {
@@ -81,5 +81,60 @@
     .navbar-menu__link--skills::after {
         content: "HABILIDADES";
         margin-left: 1.25em;
+    }
+
+    /* ///  Home Styles  /// */
+    .home-container {
+        min-height: 100%;
+        flex-direction: row-reverse;
+        padding: 0 0 0 20px;
+    }
+
+    .social-wrapper {
+        background-color: #090D12;
+        width: 50%;
+        min-height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        border-radius: 50% 0 0 50%;
+    }
+
+    .social-image {
+        display: block;
+    }
+    .social-image__picture {
+        width: 300px;
+    }
+    .social-image__img {
+        width: inherit;
+    }
+
+    .welcome-wrapper {
+        width: 50%;
+        min-height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .welcome-title {
+        text-align: left;
+    }
+    .welcome-description {
+        text-align: left;
+    }
+
+    .controls {
+        justify-content: flex-start;
+    }
+
+    .controls__button {
+        width: 170px;
+        height: 60px;
     }
 }
