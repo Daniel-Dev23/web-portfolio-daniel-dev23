@@ -1,4 +1,12 @@
-export const MenuItems = ( e ) => {
+import { HomeComponent } from '../components/HomeComponent.js';
+import { AboutComponent } from '../components/AboutComponent.js';
+import { ProjectsComponent } from '../components/ProjectsComponent.js';
+import { SkillsComponent } from '../components/SkillsComponent.js';
+
+
+export const MenuItems = ( e, $mainWrapper ) => {
+
+    $mainWrapper.innerHTML = '';
 
     const home     = '.navbar-menu__link--home';
     const about    = '.navbar-menu__link--about';
@@ -6,19 +14,19 @@ export const MenuItems = ( e ) => {
     const skills   = '.navbar-menu__link--skills';
 
     if ( e.target.matches(`${ home }`) || e.target.matches(`${ home } *`) ) {
-        console.log('Opción "Inicio", presionado...');
+        $mainWrapper.appendChild( HomeComponent() );
     }
 
     if ( e.target.matches(`${ about }`) || e.target.matches(`${ about } *`) ) {
-        console.log('Opción "Acerca De", presionado...');
+        $mainWrapper.appendChild( AboutComponent() );
     }
 
     if ( e.target.matches(`${ projects }`) || e.target.matches(`${ projects } *`) ) {
-        console.log('Opción "Projectos", presionado...');
+        $mainWrapper.appendChild( ProjectsComponent() );
     }
 
     if ( e.target.matches(`${ skills }`) || e.target.matches(`${ skills } *`) ) {
-        console.log('Opción "Habilidades", presionado...');
+        $mainWrapper.appendChild( SkillsComponent() );
     }
 
 }
