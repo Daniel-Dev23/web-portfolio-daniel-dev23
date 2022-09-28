@@ -19,6 +19,22 @@
     gap: 20px;
 }
 
+.banner-text {
+    background-color: #FBB434;
+    width: 70%;
+    min-height: 50px;
+    box-shadow: 5px 5px #F6F6F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 20px; */
+    margin: auto;
+}
+.banner-text__title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .subnavbar-container {
     /* background-color: lightseagreen; */
     width: 100%;
@@ -63,11 +79,13 @@
 
 .render-content {
     /* background-color: lightpink; */
+    /* padding: 20px; */
 
 }
 
 /* ///  Who Styles  /// */
 .description {
+    margin-top: 20px;
     /* background-color: #74787D; */
 }
 .description__text {
