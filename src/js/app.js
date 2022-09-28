@@ -2,6 +2,7 @@ import '../css/reset.css';
 import '../css/init.css';
 import '../css/home.css';
 import '../css/about.css';
+import '../css/skills.css';
 import '../css/media-queries.css';
 
 import { HeaderCustom } from './custom/HeaderCustom.js';
@@ -26,11 +27,6 @@ const mainApp = () => {
     MenuController( $navLink, $mainWrapper );    
 
 
-    // TODO: Realizar la sección Home
-
-
-    // TODO: Optimizar código HTML, CSS y JS
-    // TODO: Realizar la sección About Me
 
 }
 
