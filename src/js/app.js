@@ -2,6 +2,7 @@ import '../css/reset.css';
 import '../css/init.css';
 import '../css/home.css';
 import '../css/about.css';
+import '../css/skills.css';
 import '../css/media-queries.css';
 
 import { HeaderCustom } from './custom/HeaderCustom.js';

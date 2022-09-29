@@ -182,4 +182,8 @@
         /* border-radius: 50%; */
         /* height: inherit; */
     }
+
+    .banner-text {
+        display: none;
+    }
 }
