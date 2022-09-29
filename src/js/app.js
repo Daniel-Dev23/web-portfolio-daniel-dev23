@@ -25,13 +25,6 @@ const mainApp = () => {
     const $navLink = document.querySelectorAll('.navbar-menu__link');
     MenuController( $navLink, $mainWrapper );    
 
-
-    // TODO: Realizar la sección Home
-
-
-    // TODO: Optimizar código HTML, CSS y JS
-    // TODO: Realizar la sección About Me
-
 }
 
 mainApp();

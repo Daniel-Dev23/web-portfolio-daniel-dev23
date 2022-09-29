@@ -1,0 +1,302 @@
+[
+    {
+        "id": "JCPACKWEB",
+        "banner_img": "https://res.cloudinary.com/daniel-dev23/image/upload/v1664464898/Banner%20Cards/jc-pack-web-banner_itj7bl.png",
+        "title": "JC PACK APP WEB",
+        "min_description": "Aplicación Web basada en PHP con MVC, además de HTML, Bootstrap, Javascript y conexión con MySQL.",
+        "link": "https://github.com/Daniel-Dev23/jc-pack",
+        "details": {
+            "id": "JCPACKWEB",
+            "banner_img": "https://res.cloudinary.com/daniel-dev23/image/upload/v1664464898/Banner%20Cards/jc-pack-web-banner_itj7bl.png",
+            "title": "JC PACK APP WEB",
+            "all_description": "La aplicación administra la logística de transportación de artículos de oficina por toda Baja California. El proyecto fue corregido de errores y se aplicaron nuevas funcionalidades que mejoraron la producción.",
+            "link": "https://github.com/Daniel-Dev23/jc-pack",
+            "thumbnails": "https://github.com/Daniel-Dev23/jc-pack/blob/main/app-web/thumbnails.md",
+            "type_dev": "Full Stack",
+            "type_app": "App Web",
+            "accessibility": "Privado",
+            "technologies": [
+                {
+                    "icon": "fa-brands fa-html5",
+                    "name": "HTML"
+                },
+                {
+                    "icon": "fa-brands fa-bootstrap",
+                    "name": "Bootstrap"
+                },
+                {
+                    "icon": "fa-brands fa-square-js",
+                    "name": "JS"
+                },
+                {
+                    "icon": "fa-brands fa-php",
+                    "name": "PHP"
+                },
+                {
+                    "icon": "fa-solid fa-database",
+                    "name": "MySQL"
+                },
+                {
+                    "icon": "fa-brands fa-github",
+                    "name": "Git"
+                },
+                {
+                    "icon": "fa-brands fa-git-alt",
+                    "name": "Github"
+                }
+            ]
+        }
+    },
+    {
+        "id": "JCPACKMOVIL",
+        "banner_img": "https://res.cloudinary.com/daniel-dev23/image/upload/v1664464898/Banner%20Cards/jc-pack-movil-banner_nq4m24.png",
+        "title": "JC PACK APP MÓVIL",
+        "min_description": "Aplicación Móvil creada en Flutter que administra la logistica de transportación de articulos de oficina.",
+        "link": "https://github.com/Daniel-Dev23/jc-pack",
+        "details": {
+            "id": "JCPACKMOVIL",
+            "banner_img": "https://res.cloudinary.com/daniel-dev23/image/upload/v1664464898/Banner%20Cards/jc-pack-movil-banner_nq4m24.png",
+            "title": "JC PACK APP MÓVIL",
+            "all_description": "La aplicación administra la logística desde dispositivos móviles. Lo utilizan los choferes y cubre las funcionalidades de tracking, de manera que los supervisores inspecciones el punto actual de los envíos.",
+            "link": "https://github.com/Daniel-Dev23/jc-pack",
+            "thumbnails": "https://github.com/Daniel-Dev23/jc-pack/blob/main/app-mobile/thumbnails.md",
+            "type_dev": "Full Stack",
+            "type_app": "App Móvil",
+            "accessibility": "Privado",
+            "technologies": [
+                {
+                    "icon": "fa-solid fa-mobile-screen-button",
+                    "name": "Flutter"
+                },
+                {
+                    "icon": "fa-brands fa-php",
+                    "name": "PHP"
+                },
+                {
+                    "icon": "fa-solid fa-database",
+                    "name": "MySQL"
+                },
+                {
+                    "icon": "fa-brands fa-github",
+                    "name": "Git"
+                },
+                {
+                    "icon": "fa-brands fa-git-alt",
+                    "name": "Github"
+                }
+            ]
+        }
+    },
+    {
+        "id": "AFFIRA",
+        "banner_img": "https://res.cloudinary.com/daniel-dev23/image/upload/v1664464897/Banner%20Cards/banner-affira_sinwt8.png",
+        "title": "WEBSITE AFFIRA",
+        "min_description": "Sitio Web creado con HTML, CSS, Bootstrap, Javascript y PHP para el envío de datos de formulario.",
+        "link": "https://github.com/Daniel-Dev23/website-affira",
+        "details": {
+            "id": "AFFIRA",
+            "banner_img": "https://res.cloudinary.com/daniel-dev23/image/upload/v1664464897/Banner%20Cards/banner-affira_sinwt8.png",
+            "title": "WEBSITE AFFIRA",
+            "all_description": "El sitio web fue creado para dar exposición a los diferentes productos que el proyecto pueda ofrecer con el fin de poder llamar la atención de clientes potenciales interesados en la herramienta.",
+            "link": "https://github.com/Daniel-Dev23/website-affira",
+            "thumbnails": "https://github.com/Daniel-Dev23/website-affira/blob/main/thumbnails.md",
+            "type_dev": "Frontend",
+            "type_app": "Website",
+            "accessibility": "Público",
+            "technologies": [
+                {
+                    "icon": "fa-brands fa-html5",
+                    "name": "HTML"
+                },
+                {
+                    "icon": "fa-brands fa-css3-alt",
+                    "name": "CSS"
+                },
+                {
+                    "icon": "fa-brands fa-bootstrap",
+                    "name": "Bootstrap"
+                },
+                {
+                    "icon": "fa-brands fa-square-js",
+                    "name": "JS"
+                },
+                {
+                    "icon": "fa-brands fa-php",
+                    "name": "PHP"
+                }
+            ]
+        }
+    },
+    {
+        "id": "COMMART",
+        "banner_img": "https://res.cloudinary.com/daniel-dev23/image/upload/v1664464898/Banner%20Cards/banner-commart_at1oik.png",
+        "title": "WEBSITE GRUPO COMMART",
+        "min_description": "Sitio Web creado con HTML, CSS, Bootstrap, Javascript y PHP para el envío de datos de formulario.",
+        "link": "https://github.com/Daniel-Dev23/website-grupo-commart",
+        "details": {
+            "id": "COMMART",
+            "banner_img": "https://res.cloudinary.com/daniel-dev23/image/upload/v1664464898/Banner%20Cards/banner-commart_at1oik.png",
+            "title": "WEBSITE GRUPO COMMART",
+            "all_description": "El sitio web fue creado para dar exposición a los diferentes servicios y productos de la empresa Grupo Commart S.A. de C.V. El sitio web fue rediseñado y logro tener más alcance entre los usuarios tecnológicos.",
+            "link": "https://github.com/Daniel-Dev23/website-grupo-commart",
+            "thumbnails": "https://github.com/Daniel-Dev23/website-grupo-commart/blob/main/thumbnails.md",
+            "type_dev": "Frontend",
+            "type_app": "Website",
+            "accessibility": "Público",
+            "technologies": [
+                {
+                    "icon": "fa-brands fa-html5",
+                    "name": "HTML"
+                },
+                {
+                    "icon": "fa-brands fa-css3-alt",
+                    "name": "CSS"
+                },
+                {
+                    "icon": "fa-brands fa-bootstrap",
+                    "name": "Bootstrap"
+                },
+                {
+                    "icon": "fa-brands fa-square-js",
+                    "name": "JS"
+                },
+                {
+                    "icon": "fa-brands fa-php",
+                    "name": "PHP"
+                }
+            ]
+        }
+    },
+    {
+        "id": "WEBPACKJS",
+        "banner_img": "https://res.cloudinary.com/daniel-dev23/image/upload/v1664464908/Banner%20Cards/webpack-light-banner_wqycyt.png",
+        "title": "WEBPACK JS",
+        "min_description": "Esqueleto de un módulo Webpack configurado y adaptado para construir proyectos basados en Javascript.",
+        "link": "https://github.com/Daniel-Dev23/webpack-js-skeleton",
+        "details": {
+            "id": "WEBPACKJS",
+            "banner_img": "https://res.cloudinary.com/daniel-dev23/image/upload/v1664464908/Banner%20Cards/webpack-light-banner_wqycyt.png",
+            "title": "WEBPACK JS",
+            "all_description": "La construcción de este módulo Webpack es un esqueleto que sirve para ser reutilizado. Con esto se busca evitar la extensa configuración inicial y pasar directamente al desarrollo de proyectos con Javascript.",
+            "link": "https://github.com/Daniel-Dev23/webpack-js-skeleton",
+            "thumbnails": "https://github.com/Daniel-Dev23/webpack-js-skeleton/blob/main/thumbnails.md",
+            "type_dev": "Backend",
+            "type_app": "Webpack",
+            "accessibility": "Público",
+            "technologies": [
+                {
+                    "icon": "fa-brands fa-html5",
+                    "name": "HTML"
+                },
+                {
+                    "icon": "fa-brands fa-css3-alt",
+                    "name": "CSS"
+                },
+                {
+                    "icon": "fa-brands fa-square-js",
+                    "name": "JS"
+                },
+                {
+                    "icon": "fa-brands fa-node-js",
+                    "name": "Node JS"
+                },
+                {
+                    "icon": "fa-solid fa-globe",
+                    "name": "Webpack"
+                },
+                {
+                    "icon": "fa-brands fa-github",
+                    "name": "Git"
+                },
+                {
+                    "icon": "fa-brands fa-git-alt",
+                    "name": "Github"
+                }
+            ]
+        }
+    },
+    {
+        "id": "WEBPACKTS",
+        "banner_img": "https://res.cloudinary.com/daniel-dev23/image/upload/v1664464908/Banner%20Cards/webpack-banner_dvc0ce.png",
+        "title": "WEBPACK TS",
+        "min_description": "Esqueleto de un módulo Webpack configurado y adaptado para construir proyectos basados en Typescript.",
+        "link": "https://github.com/Daniel-Dev23/webpack-ts-skeleton",
+        "details": {
+            "id": "WEBPACKTS",
+            "banner_img": "https://res.cloudinary.com/daniel-dev23/image/upload/v1664464908/Banner%20Cards/webpack-banner_dvc0ce.png",
+            "title": "WEBPACK TS",
+            "all_description": "La construcción de este módulo Webpack es un esqueleto que sirve para ser reutilizado. Con esto se busca evitar la extensa configuración inicial y pasar directamente al desarrollo de proyectos con Typescript.",
+            "link": "https://github.com/Daniel-Dev23/webpack-ts-skeleton",
+            "thumbnails": "https://github.com/Daniel-Dev23/webpack-ts-skeleton/blob/main/thumbnails.md",
+            "type_dev": "Backend",
+            "type_app": "Webpack",
+            "accessibility": "Público",
+            "technologies": [
+                {
+                    "icon": "fa-brands fa-html5",
+                    "name": "HTML"
+                },
+                {
+                    "icon": "fa-brands fa-css3-alt",
+                    "name": "CSS"
+                },
+                {
+                    "icon": "fa-brands fa-square-js",
+                    "name": "Typescript"
+                },
+                {
+                    "icon": "fa-brands fa-node-js",
+                    "name": "Node JS"
+                },
+                {
+                    "icon": "fa-solid fa-globe",
+                    "name": "Webpack"
+                },
+                {
+                    "icon": "fa-brands fa-github",
+                    "name": "Git"
+                },
+                {
+                    "icon": "fa-brands fa-git-alt",
+                    "name": "Github"
+                }
+            ]
+        }
+    },
+    {
+        "id": "RESTSERVER",
+        "banner_img": "https://res.cloudinary.com/daniel-dev23/image/upload/v1664464898/Banner%20Cards/banner-rest_zfjrer.png",
+        "title": "REST SERVER SKELETON",
+        "min_description": "Esqueleto de un REST Server creado con Node JS que sirve como base para proyectos de API REST.",
+        "link": "https://github.com/Daniel-Dev23/rest-server-skeleton",
+        "details": {
+            "id": "RESTSERVER",
+            "banner_img": "https://res.cloudinary.com/daniel-dev23/image/upload/v1664464898/Banner%20Cards/banner-rest_zfjrer.png",
+            "title": "REST SERVER SKELETON",
+            "all_description": "",
+            "link": "https://github.com/Daniel-Dev23/rest-server-skeleton",
+            "thumbnails": "https://github.com/Daniel-Dev23/rest-server-skeleton/blob/main/thumbnails.md",
+            "type_dev": "Backend",
+            "type_app": "API",
+            "accessibility": "Público",
+            "technologies": [
+                {
+                    "icon": "fa-brands fa-node-js",
+                    "name": "Node JS"
+                },
+                {
+                    "icon": "fa-brands fa-node-js",
+                    "name": "Node Express"
+                },
+                {
+                    "icon": "fa-brands fa-github",
+                    "name": "Git"
+                },
+                {
+                    "icon": "fa-brands fa-git-alt",
+                    "name": "Github"
+                }
+            ]
+        }
+    }
+]
