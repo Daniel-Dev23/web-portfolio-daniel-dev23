@@ -19,7 +19,15 @@
     gap: 20px;
     
     padding: 20px;
+    animation: fadeIn 2s;
+
 }
+
+/* .main-front {
+    background-color: lightcoral;
+    width: 100%;
+    display: flex;
+} */
 
 .front-container {
     /* background-color: #74787D; */

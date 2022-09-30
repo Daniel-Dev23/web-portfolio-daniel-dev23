@@ -6,6 +6,7 @@ body {
     /* background-color: lightcoral; */
     width: inherit;
     min-height: inherit;
+    animation: fadeIn 2s;
 }
 
 .header-wrapper {
@@ -13,6 +14,7 @@ body {
     width: 100%;
     min-height: 300px;
     position: relative;
+    /* animation: fadeIn 2s;  */
 }
 
 .overlay {
@@ -93,4 +95,9 @@ body {
 .test-text {
     font-size: 35px;
     text-align: center;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
