@@ -1,5 +1,4 @@
 import ProjectsHTML from '../../pages/components/Projects.html';
-// import { ModalControls } from '../helpers/ModalControls';
 import { RenderCards } from '../custom/Cards/RenderCards';
 import { RenderModals } from '../custom/Modals/RenderModals';
 
