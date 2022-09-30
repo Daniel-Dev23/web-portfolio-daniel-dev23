@@ -6,6 +6,10 @@ Este es el código fuente de mi portafolio como Desarrollador Web.
 
 Este proyecto, se construye y se renderiza desde un módulo funcional de Webpack. En mi perfil de Github, podrás encontrar la base Webpack de desarrollo utilizada para esta labor. __[Ver Proyecto Webpack](https://github.com/Daniel-Dev23/webpack-js)__
 
+<br>
+
+__[Ver Imágenes Previas](./thumbnails.md)__
+
 ---
 
 ## __Medios de Contacto__
