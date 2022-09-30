@@ -1,0 +1,77 @@
+.skills-container,
+.front-container,
+.front-content,
+.soft-content,
+.front-item,
+.soft-item,
+.front-wrapper {
+    display: flex;
+}
+
+.skills-container {
+    width: 100%;
+    min-height: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    animation: fadeIn 2s;
+}
+
+.front-container {
+    width: 100%;
+    margin-top: 20px;
+    flex-direction: column;
+    gap: 20px;
+}
+.front-main-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #00C377;
+    text-align: center;
+}
+.front-content {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.soft-content {
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.front-item {
+    width: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.soft-item {
+    width: 300px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.front-wrapper {
+    background-color: #FBB434;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.front-icon {
+    font-size: 30px;
+}
+.front-title {
+    text-align: center;
+}

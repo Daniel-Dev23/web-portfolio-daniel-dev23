@@ -1,0 +1,193 @@
+@media screen and (min-width: 30em) and (max-width: 60em) {}
+
+@media screen and (min-width: 60em) and (max-width: 85.5em) {
+    
+    :root {
+        --card-group-h: 370px;
+    }
+    
+    body {
+        margin-bottom: 0;
+    }
+
+    .main-container {
+        display: grid;
+        grid-template-columns: 22% 78%;
+        grid-template-rows: 40% 60%;
+        grid-template-areas: 
+            "HeaderWrapper MainWrapper"
+            "NavbarContainer MainWrapper"
+        ;
+    
+    }
+    .header-wrapper {
+        background-color: #090D12;
+        grid-area: HeaderWrapper;
+    }
+
+    .developer-wrapper {
+        grid-area: DevContainer;
+    }
+    .developer-picture {
+        width: 150px;
+    }
+    .developer-name {
+        font-size: 25px;
+    }
+
+    .main-wrapper {
+        grid-area: MainWrapper;
+    }
+
+    .navbar-wrapper {
+        grid-area: NavbarContainer;
+        position: relative;
+        height: 100%;
+    }
+
+    .navbar-menu {
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+        padding-left: 20%;
+    }
+
+    .navbar-menu__link {
+        width: 100%;
+        height: 4em;
+    }
+
+    .navbar-menu__link--home::after {
+        content: "INICIO";
+        margin-left: 1.25em;
+    }
+    .navbar-menu__link--about::after {
+        content: "ACERCA";
+        margin-left: 1.5625em;
+    }
+    .navbar-menu__link--projects::after {
+        content: "PROYECTOS";
+        margin-left: 1.25em;
+    }
+    .navbar-menu__link--skills::after {
+        content: "HABILIDADES";
+        margin-left: 1.25em;
+    }
+
+    /* ///  Home Styles  /// */
+    .home-container {
+        min-height: 100%;
+        flex-direction: row-reverse;
+        padding: 0 0 0 20px;
+    }
+
+    .social-wrapper {
+        background-color: #090D12;
+        width: 50%;
+        min-height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        border-radius: 50% 0 0 50%;
+    }
+
+    .social-image {
+        display: block;
+    }
+    .social-image__picture {
+        width: 300px;
+    }
+    .social-image__img {
+        width: inherit;
+    }
+
+    .welcome-wrapper {
+        width: 50%;
+        min-height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .welcome-title {
+        text-align: left;
+    }
+    .welcome-description {
+        text-align: left;
+    }
+
+    .controls {
+        justify-content: flex-start;
+    }
+    .controls--center {
+        justify-content: center;
+    }
+
+    .controls__button {
+        width: 170px;
+        height: 60px;
+    }
+
+
+    .render-content {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+    }
+
+    /* ///  Who Styles /// */
+    .description {
+        width: 80%;
+    }
+    .component {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .component-wrapper {
+        width: 45%;
+    }
+
+    .component-wrapper--figure {
+        width: 100%;
+    }
+    .component-figure__img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .banner-text {
+        display: none;
+    }
+
+    .cards-wrapper {
+        width: 100%;
+        height: 39em;
+        overflow-y: auto;
+    }
+    .card-group {
+        width: 280px;
+        min-height: var(--card-group-h);
+    }
+    .card-text {
+        min-height: 125px;
+    }
+    .card-text__min-description {
+        font-size: 14px;
+    }
+
+    .main-front {
+        width: 100%;
+        display: flex;
+    }
+}
