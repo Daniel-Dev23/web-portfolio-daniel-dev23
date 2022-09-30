@@ -1,27 +1,30 @@
-/* TODO: Eliminar las custom properties */
-:root {
-    --color-a: #0D111A;
-    --color-b: #090D12;
-    --color-c: #00C377;
-    --color-d: #74787D;
-    --color-e: #FBB434;
-    --color-f: #F6F6F9;
+.home-container,
+.social-network,
+.item-wrapper,
+.item-wrapper__link,
+.welcome-wrapper,
+.controls,
+.controls__button {
+    display: flex;
+}
+
+.item-wrapper,
+.item-wrapper__link,
+.controls,
+.controls__button {
+    justify-content: center;
+    align-items: center;
 }
 
 .home-container {
-    /* background-color: lightcoral; */
     width: 100%;
     min-height: auto;
-
-    display: flex;
     flex-direction: column;
     gap: 40px;
-
     padding: 0 20px 20px 20px;
 }
 
 .social-wrapper {
-    /* background-color: lightseagreen; */
     width: 100%;
     min-height: auto;
 }
@@ -31,22 +34,15 @@
 .social-network {
     width: 100%;
     min-height: auto;
-
-    display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 20px;
 }
 
 .item-wrapper {
-    /* background-color: #74787D; */
     width: 100px;
     min-height: 100px;
-
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 10px;
 }
 .item-wrapper__link {
@@ -54,10 +50,6 @@
     width: 80px;
     min-height: 80px;
     border-radius: 60%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .item-wrapper__link:hover {
     background-color: #FBB434;
@@ -71,8 +63,6 @@
 }
 
 .welcome-wrapper {
-    /* background-color: lightpink; */
-    display: flex;
     flex-direction: column;
     gap: 30px;
 }
@@ -88,24 +78,14 @@
 }
 
 .controls {
-    /* background-color: #74787D; */
     width: 100%;
     min-height: auto;
-
-    display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
     gap: 20px;
 }
 .controls__button {
     width: 200px;
     height: 70px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;

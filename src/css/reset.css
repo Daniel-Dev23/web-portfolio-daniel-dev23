@@ -154,5 +154,5 @@ body {
     font-smooth: always;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    outline: 8px dashed red;
+    /* outline: 8px dashed red; */
 }

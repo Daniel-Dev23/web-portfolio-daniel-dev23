@@ -1,16 +1,4 @@
-/* TODO: Eliminar las custom properties */
-:root {
-    --color-a: #0D111A;
-    --color-b: #090D12;
-    --color-c: #00C377;
-    --color-d: #74787D;
-    --color-e: #FBB434;
-    --color-f: #F6F6F9;
-}
-
-@media screen and (min-width: 30em) and (max-width: 60em) {
-    
-}
+@media screen and (min-width: 30em) and (max-width: 60em) {}
 
 @media screen and (min-width: 60em) and (max-width: 85.5em) {
     
@@ -138,7 +126,6 @@
         justify-content: flex-start;
     }
     .controls--center {
-        /* display: flex; */
         justify-content: center;
     }
 
@@ -150,9 +137,7 @@
 
     .render-content {
         height: 100%;
-        /* min-height: 50%; */
         width: 100%;
-        /* height: 35em; */
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -161,9 +146,7 @@
 
     /* ///  Who Styles /// */
     .description {
-        /* background-color: #74787D; */
         width: 80%;
-        /* margin: auto; */
     }
     .component {
         flex-direction: row;
@@ -189,10 +172,8 @@
 
     .cards-wrapper {
         width: 100%;
-        /* height: auto; */
         height: 41em;
         overflow-y: auto;
-        /* background-color: red; */
     }
     .card-group {
         width: 280px;
@@ -206,24 +187,7 @@
     }
 
     .main-front {
-        /* background-color: lightcoral; */
         width: 100%;
         display: flex;
     }
-
-    /* .modal-wrapper {
-        width: 100%;
-        min-height: 100vh;
-    } */
-
-    /* .modal-wrapper {
-        background-color: #090D12;
-        width: 600px;
-        max-width: 100%;
-    
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-        border-radius: 10px;
-        position: relative;
-        padding: 20px;
-    } */
 }

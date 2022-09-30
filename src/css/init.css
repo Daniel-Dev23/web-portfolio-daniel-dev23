@@ -3,18 +3,15 @@ body {
 }
 
 .main-container {
-    /* background-color: lightcoral; */
     width: inherit;
     min-height: inherit;
     animation: fadeIn 2s;
 }
 
 .header-wrapper {
-    /* background-color: lightseagreen; */
     width: 100%;
     min-height: 300px;
     position: relative;
-    /* animation: fadeIn 2s;  */
 }
 
 .overlay {
@@ -48,21 +45,15 @@ body {
     color: #FBB434;
 }
 
-.main-wrapper {
-    /* background-color: lightsalmon; */
-    /* padding: 20px; */
-}
+.main-wrapper {}
 
 .navbar-wrapper {
-    /* background-color: #FBB434; */
     background-color: #090D12;
     width: 100%;
     height: 5em;
-
     display: flex;
     justify-content: center;
     align-items: center;
-    
     position: fixed;
     bottom: 0;
 }
@@ -70,7 +61,6 @@ body {
 .navbar-menu {
     width: inherit;
     height: inherit;
-    
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
